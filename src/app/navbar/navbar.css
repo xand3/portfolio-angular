@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  padding-inline: 2em;
+  align-items: center;
+  justify-content: space-between;
+  height: 5em;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 5px;
+}
+
+nav ul li:last-child {
+  margin-right: 0px;
+}
+
+a {
+  display: inline-block;
+  color: #e9e5dd;
+  text-decoration: none;
+}
+
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #e9e5dd;
+  transition: width 0.5s;
+}
+
+a:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
