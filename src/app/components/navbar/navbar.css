@@ -39,3 +39,7 @@ a:hover::after {
   width: 100%;
   transition: width .3s;
 }
+
+@media only screen and (max-width: 780px) {
+  
+}
