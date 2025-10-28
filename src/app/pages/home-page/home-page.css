@@ -1,14 +1,29 @@
 .principal_area {
   display: flex;
-  justify-content: center;
+  
+  height: 100%;
+  justify-content: space-around;
   align-items: center;
-  margin: auto 30px;
+  margin: 50px 50px;
+}
+
+.principal_area_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.principal_area_info h1 {
+  line-height: 50px;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
 }
 
 aside img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  height: 60vh;
 }
 
 @media only screen and (max-width: 780px) {
